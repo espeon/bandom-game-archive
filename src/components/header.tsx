@@ -21,7 +21,7 @@ export default function Header() {
     { id: "/exp/mystery-decaydance", label: "Mystery at Decaydance High" },
     { id: "/exp/sweet-revenge", label: "Sweet Revenge" },
     {
-      id: "exp/witw-cobra-starship",
+      id: "/exp/witw-cobra-starship",
       label: "Where in the World is Cobra Starship",
     },
   ];
@@ -37,7 +37,7 @@ export default function Header() {
   };
   return (
     <div
-      className={`w-screen border-b-2 bg-slate-50 dark:bg-black dark:border-gray-800 pb-2 min-w-screen bg-slate-400 header-container ${hidden ? "hidden" : ""}`}
+      className={`w-screen border-b-2 bg-slate-50 dark:bg-black dark:border-gray-800 pb-2 min-w-screen header-container ${hidden ? "hidden" : ""}`}
     >
       <div className="sticky top-0 container mx-auto flex justify-between items-center dark:text-white text-black dark:border-gray-800 xl:max-w-screen-2xl min-w-screen">
         <div className="mt-12 text-5xl mb-2 ml-4">
